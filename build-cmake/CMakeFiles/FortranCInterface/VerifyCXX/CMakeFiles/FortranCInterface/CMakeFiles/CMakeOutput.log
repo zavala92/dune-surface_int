@@ -1,0 +1,18 @@
+Performing C SOURCE FILE Test C_SUPPORTS_DOLLAR succeeded with the following output:
+Change Dir: /home/zavala68/mydune/dune-surface_int/build-cmake/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f212f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f212f.dir/build.make CMakeFiles/cmTC_f212f.dir/build
+gmake[1]: Entering directory '/home/zavala68/mydune/dune-surface_int/build-cmake/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f212f.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_DOLLAR   -o CMakeFiles/cmTC_f212f.dir/src.c.o -c /home/zavala68/mydune/dune-surface_int/build-cmake/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f212f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f212f.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_f212f.dir/src.c.o -o cmTC_f212f 
+gmake[1]: Leaving directory '/home/zavala68/mydune/dune-surface_int/build-cmake/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+extern int dollar$(void);
+int main() { return 0; }
+

@@ -1,0 +1,13 @@
+
+macro(add_example NAME SOURCE)
+  add_executable(${NAME} ${SOURCE})
+  target_link_dune_default_libraries(${NAME})
+  target_compile_definitions(${NAME} PRIVATE DUNE_GRID_PATH=\"${CMAKE_CURRENT_SOURCE_DIR}/grids/\")
+endmacro(add_example)
+add_example(sphere_example sphere_example.cc)
+add_example(ellipsoid_example ellipsoid_example.cc)
+add_example(torus_example torus_example.cc)
+add_example(double_torus double_torus.cc)
+add_example(biconcave_disc biconcave_disc.cc)
+add_example(dziku_surface dziku_surface.cc)
+add_example(genus_surface genus_surface.cc)

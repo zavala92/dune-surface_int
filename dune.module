@@ -1,0 +1,12 @@
+################################
+# Dune module information file #
+################################
+
+# Name of the module
+Module: dune-surface_int
+Version: 1.0
+Maintainer: g.zavalani@hzdr.de
+# Required build dependencies
+Depends: dune-common dune-uggrid dune-geometry dune-localfunctions dune-grid dune-istl dune-typetree dune-functions dune-foamgrid dune-vtk dune-curvedgeometry dune-curvedgrid dune-gmsh4
+# Optional build dependencies
+#Suggests:
